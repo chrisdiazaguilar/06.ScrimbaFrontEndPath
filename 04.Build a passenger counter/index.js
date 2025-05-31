@@ -13,3 +13,11 @@ function save() {
     countEl.textContent = 0
     count = 0
 }
+
+function reset (){
+    let countStrReset = "Previous entries:" 
+    saveEl.textContent = countStrReset
+    countEl.textContent = 0
+    count = 0
+
+}
