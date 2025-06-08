@@ -66,23 +66,23 @@ header{
     
 }
 
-.middleContent img{
-    width: 150px;
-    border-radius: 100%;
-    padding: 0px 60px 0 60px;
-}
-
 .center-midpage{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.center-textmidpage{
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 5px 5px 10px;
+.card img{
+    width: 120px;
+    border-radius: 100%;
+    padding: 0px 50px 0 50px;
 }
+
+.card p{
+    max-width: 250px;
+    padding: 0px 50px 0 50px;
+}
+
     
 
 /* flex-direction: row;
