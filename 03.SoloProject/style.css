@@ -79,13 +79,20 @@ header{
 }
 
 .card p{
-    max-width: 250px;
     padding: 0px 50px 0 50px;
 }
+.boldText{
+    font-weight: bold;
+}
 
-    
+/* ========================================== */
 
-/* flex-direction: row;
-    width: 150px; 
-border-radius: 100%;
-    padding: 0px 60px 0 60px ; */
+/* End of Page */
+.businessCard{
+    border: 1px solid blue;
+    padding: 20px;
+}
+
+.businessCard img{
+    width: 120px;
+}
