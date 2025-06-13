@@ -11,3 +11,14 @@ body{
 .container h3{
     color: white;
 }
+.scoreNumber{
+    background-color: black;
+    color:red;
+    text-align: center;
+}
+
+.scoreAddition{
+    text-align: center;
+    color:#9AABD8;
+    border: solid 1px #9AABD8;
+}
