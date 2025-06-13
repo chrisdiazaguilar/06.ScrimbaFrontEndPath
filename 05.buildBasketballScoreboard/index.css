@@ -5,4 +5,9 @@ body{
 .container {
     display: flex;
     justify-content: space-around;
+    background-color: #1B244A ;
+}
+
+.container h3{
+    color: white;
 }
