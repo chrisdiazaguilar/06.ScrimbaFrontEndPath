@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'CursedTimer';
+    src: url('../cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'CursedTimer', sans-serif;
+    margin:200px;
+}
+
+.scoreBlock{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px 24px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A ;
+    width: 575px;
+    height: 385px;
+}
+
+.container h3{
+    width: 149px;
+    height: 36px;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin: 45px 0 15px 0;
+    
+}
+
+.numberDisplay{
+    background-color: black;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    width:155px;
+    height: 120px;
+    margin: 0 0 20px 0;
+}
+.scoreNumber{
+    text-align: center;
+    font-size: 90px;
+    font-weight: lighter;
+    font-family: 'CursedTimer';
+    color:#F94F6D;
+    margin: 25px;
+}
+
+.scoreAddition{
+    font-size: 20px;
+    font-family:'CursedTimer';
+    text-align: center;
+    background-color: transparent;
+    color:#9AABD8;
+    border: solid 1px #9AABD8;
+    padding: 10px 5px 10px 5px;
+    width: 30%; 
+    border-radius: 5px;
+    border-width: 2px;
+    cursor: pointer;
+    transition:background 0.2s;
+}
+
+.scoreAddition:hover {
+    background-color: rgba(154, 171, 216, 0.1);
+}
+
+.buttonRow{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
