@@ -1,0 +1,135 @@
+/*
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+**/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+/* Top heading */
+header{
+    background-image: url("images/elsalvador.jpg");
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 220px;
+}
+
+.center-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.center-item h1 {
+    background-color: #1a2c48;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Subtext */
+.center-item h2{
+    background-color: #457B9D;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    max-width: 460px;
+    margin: 0;
+}
+
+/* ========================================== */
+
+/* Middle content */
+.middleContent{
+    background-color: #F1FAEE;
+    color: #1D3557;
+    padding: 20px 0 20px 0;
+    
+}
+
+.center-midpage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img{
+    height: 150px;
+    object-fit: cover;
+    background-size: cover;
+    width: 150px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card p{
+    padding: 0px 50px 0 50px;
+}
+.boldText{
+    font-weight: bold;
+}
+
+/* ========================================== */
+
+/* End of Page */
+#guide_section{
+    padding: 50px;
+}
+.businessCard{
+    display: flex;
+    margin: 55px auto;
+    background: #A8DADC;
+    border-radius: 5%;
+    border-bottom: 8px solid #1a2c48;
+    color: #1D3557;
+    padding: 25px;
+    max-width: 450px;
+    text-align: center;
+    gap: 40px;
+}
+
+.businessCard img{
+    width: 220px;
+    border-radius: 5%;
+    align-items: center;
+}
+
+.guide-text{
+    text-align: center;
+}
+
+.guide-text h4{
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.guide-text h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.guide-text p{
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: italic;
+}
