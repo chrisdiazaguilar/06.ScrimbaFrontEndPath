@@ -7,23 +7,23 @@
       <div class="scoreBlock">
         <h3>HOME</h3>
         <div class="numberDisplay">
-          <h2 class="scoreNumber" id="count-el">0</h2>
+          <h2 class="scoreNumber" id="displayHomescore">0</h2>
         </div>
         <div class="buttonRow">
-          <button class="scoreAddition">+1</button>
-          <button class="scoreAddition">+2</button>
-          <button class="scoreAddition">+3</button>
+          <button class="scoreAddition" onclick="increment(1)">+1</button>
+          <button class="scoreAddition" onclick="increment(2)">+2</button>
+          <button class="scoreAddition" onclick="increment(3)">+3</button>
         </div>
       </div>
       <div class="scoreBlock">
         <h3>GUEST</h3>
         <div class="numberDisplay">
-          <h2 class="scoreNumber">0</h2>
+          <h2 class="scoreNumber" id="displayGuestscore">0</h2>
         </div>
         <div class="buttonRow">
-          <button class="scoreAddition">+1</button>
-          <button class="scoreAddition">+2</button>
-          <button class="scoreAddition">+3</button>
+          <button class="scoreAddition" onclick="incrementGuest(1)">+1</button>
+          <button class="scoreAddition" onclick="incrementGuest(2)">+2</button>
+          <button class="scoreAddition" onclick="incrementGuest(3)">+3</button>
         </div>
       </div>
     </div>
